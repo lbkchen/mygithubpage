@@ -1,0 +1,26 @@
+#dudies {
+}
+
+#dudies:hover {
+  font-size: 30px;
+}
+
+.nick-young {
+  display: none;
+}
+
+#dudies:hover + .nick-young {
+  display: block;
+  transition: 250ms;
+  transform-origin: 0 0;
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: 250ms;
+  -moz-transition: 250ms;
+  -ms-transition: 250ms;
+  transition: 250ms;
+
+}
