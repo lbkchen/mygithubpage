@@ -1,5 +1,6 @@
 @import "_colors";
 @import "_text";
+@import "_flex";
 
 .sidebar {
   position: fixed;
@@ -39,7 +40,55 @@
 }
 
 .content-container {
-  width: 70%;
+  width: 80%;
   margin: 50px auto;
+}
 
+.projects-container {
+  width: 100%;
+  margin: 0px auto;
+  @include flexbox();
+  -webkit-flex-flow: row wrap;
+}
+
+.project-box {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  padding: 0px 10px;
+  text-align: center;
+  transition: 200ms;
+  &.cvicu {
+    background-color: $red;
+  }
+  &.hbi {
+    background-color: $hbi-yellow;
+  }
+  &:hover {
+    transform: scale(1.05, 1.05);
+    transform-origin: center;
+  }
+}
+
+.project-box-img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: 200ms;
+  &:hover {
+    opacity: 0.2;
+    cursor: pointer;
+  }
+}
+
+.project-icon {
+  display: block;
+  height: 60px;
+  width: auto;
+  margin: 30px auto 20px;
 }

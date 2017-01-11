@@ -30,8 +30,15 @@ p {
 
 a {
   color: $false-black;
-  transition: 150ms; 
+  transition: 150ms;
   &:hover {
     color: $blue;
   }
+}
+
+.project-text {
+  font-size: 20px;
+  font-weight: $bold;
+  color: $white;
+  letter-spacing: 1px;
 }
