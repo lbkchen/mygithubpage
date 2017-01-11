@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+body {
+  color: #373737;
+  font-family: "Lato", "Helvetica", sans-serif;
+  font-size: 18px;
+  line-height: 1.5; }
+
+h1 {
+  font-size: 28px;
+  font-weight: 400; }
+
+p {
+  font-size: 18px;
+  font-weight: 300; }
+
+.sidebar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 400px;
+  background-color: #373737; }
+
+.name {
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */

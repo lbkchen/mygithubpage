@@ -1,0 +1,29 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+// Weights
+$thin         : 100;
+$light        : 300;
+$regular      : 400;
+$bold         : 700;
+$black        : 900;
+
+// Styles
+$font-stack   : 'Lato', 'Helvetica', sans-serif;
+
+body {
+  color: $false-black;
+  font-family: $font-stack;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: $regular;
+}
+
+p {
+  font-size: 18px;
+  font-weight: $light;
+}

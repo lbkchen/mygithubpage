@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width = device-width, initial-scale = 1">
+<title>Ken Chen</title>
+<!-- BootStrap JS and JQuery CDN's -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css" />
+<style>
+  @media (max-width: 797px) {
+    body {
+    }
+    .about {
+      transform-style: preserve-3d;
+      transform: perspective(800px);
+    }
+    .about h2 .about p {
+      transition: all 0.8s ease;
+    }
+    .about.animate-in h2 {
+      opacity: 1;
+      transform: translate3d(0, 0, 400px) rotateY(-40deg);
+    }
+    .about.animate-in p {
+      opacity: 1;
+      transform: translate3d(0, 0, 400px) rotateY(-40deg);
+    }
+  }
+</style>
+<head>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="page-header col-lg-offset-2 col-lg-6">
+        <h1><a href="/">Ken Chen</a></h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-offset-2 col-lg-8" id="shortBio">
+        <p id="dudies">Wassup my <strong>dudies</strong>!</p>
+
+        <img class="nick-young" alt="nick-young" src="images/nick-young.png"/>
+      </div>
+    </div>
+  </div>
+
+<!-- JS -->
+<script type="text/javascript">
+  (function() {
+    var aboutEl = $('div.about');
+    var aboutElOffset = aboutEl.offset().top/2;
+    var documentEl = $(document);
+
+    documentEl.on('scroll', function() {
+      if (aboutEl.hasClass("hidden")) {
+        aboutEl.removeClass("hidden");
+      }
+    })
+  })();
+</script>
+
+</body>

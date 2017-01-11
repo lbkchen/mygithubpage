@@ -1,0 +1,15 @@
+@import "_colors";
+@import "_text";
+
+.sidebar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 400px;
+  background-color: $false-black;
+}
+
+.name {
+  color: white;
+}
