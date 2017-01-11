@@ -29,10 +29,16 @@ p {
 }
 
 a {
+  font-weight: $bold;
   color: $false-black;
   transition: 150ms;
+  text-decoration: none;
+  &:link &:visited &:active {
+    text-decoration: none;
+  }
   &:hover {
     color: $blue;
+    text-decoration: underline;
   }
 }
 
@@ -43,8 +49,11 @@ a {
 }
 
 .project-text {
+  position: relative;
   font-size: 20px;
   font-weight: $bold;
   color: $white;
   letter-spacing: 1px;
+  z-index: 1;
+  pointer-events: none;
 }
