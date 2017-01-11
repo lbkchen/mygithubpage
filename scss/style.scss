@@ -30,17 +30,16 @@
 
 .main {
   position: fixed;
-  right: 0px;
   top: 0px;
   bottom: 0px;
   float: right;
-  width: 75%;
+  width: 100%;
   background-color: $false-white;
   overflow-y: scroll;
 }
 
 .content-container {
-  width: 80%;
+  width: 50%;
   margin: 50px auto;
 }
 
