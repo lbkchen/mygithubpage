@@ -27,3 +27,11 @@ p {
   font-size: 18px;
   font-weight: $light;
 }
+
+a {
+  color: $false-black;
+  transition: 150ms; 
+  &:hover {
+    color: $blue;
+  }
+}

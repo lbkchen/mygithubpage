@@ -13,15 +13,46 @@ p {
   font-size: 18px;
   font-weight: 300; }
 
+a {
+  color: #373737;
+  transition: 150ms; }
+  a:hover {
+    color: #2890e6; }
+
 .sidebar {
   position: fixed;
   left: 0px;
   top: 0px;
   bottom: 0px;
-  width: 400px;
+  float: left;
+  width: 25%;
   background-color: #373737; }
 
+.name-container {
+  width: 60%;
+  margin: 0px auto;
+  text-align: center; }
+
 .name {
-  color: white; }
+  color: white;
+  transition: 100ms; }
+  .name:hover {
+    transform: scale(1.1, 1.1);
+    transform-origin: center;
+    cursor: default; }
+
+.main {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  float: right;
+  width: 75%;
+  background-color: #f0f0f0;
+  overflow-y: scroll; }
+
+.content-container {
+  width: 70%;
+  margin: 50px auto; }
 
 /*# sourceMappingURL=style.css.map */

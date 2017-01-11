@@ -6,10 +6,40 @@
   left: 0px;
   top: 0px;
   bottom: 0px;
-  width: 400px;
+  float: left;
+  width: 25%;
   background-color: $false-black;
+}
+
+.name-container {
+  width: 60%;
+  margin: 0px auto;
+  text-align: center;
 }
 
 .name {
   color: white;
+  transition: 100ms;
+  &:hover {
+    transform: scale(1.1, 1.1);
+    transform-origin: center;
+    cursor: default;
+  }
+}
+
+.main {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  float: right;
+  width: 75%;
+  background-color: $false-white;
+  overflow-y: scroll;
+}
+
+.content-container {
+  width: 70%;
+  margin: 50px auto;
+
 }
