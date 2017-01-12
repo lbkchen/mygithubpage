@@ -1,0 +1,42 @@
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  background-color: $false-black;
+  border: none;
+  border-radius: 8px;
+  color: $white;
+  transition: 150ms ease-in-out;
+  &:hover {
+    background-color: $blue;
+    cursor: pointer;
+  }
+}
+
+.icon-btn-left {
+  @extend .icon-btn;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.icon-desc-container {
+  display: inline-block;
+  height: 40px;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 1px solid $false-black;
+  border-radius: 8px;
+  color: $false-black;
+  > .icon-btn-left {
+    float: left;
+    transform: translate(-1px, -1px);
+    pointer-events: none;
+  }
+  > .icon-desc {
+    float: right;
+    margin: 0px 10px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 38px;
+    font-weight: $bold;
+  }
+}

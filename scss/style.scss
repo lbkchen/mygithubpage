@@ -1,6 +1,8 @@
 @import "_colors";
 @import "_text";
 @import "_flex";
+@import "_buttons";
+@import "_misc";
 
 .sidebar {
   position: fixed;
@@ -58,7 +60,7 @@
   margin: 10px;
   padding: 0px 10px;
   text-align: center;
-  transition: 200ms ease;
+  transition: 200ms ease-in-out;
   &.cvicu {
     background-color: $red-80;
   }
@@ -69,7 +71,7 @@
     background-color: $roots-blue-80;
     &:hover > .project-icon {
       transform: rotate(360deg);
-      transition: 1000ms ease;
+      transition: 700ms ease-in-out;
     }
   }
   &.maps {
@@ -90,7 +92,7 @@
   opacity: 0;
   transition: 200ms;
   &:hover {
-    opacity: 0.2;
+    opacity: 0.3;
     cursor: pointer;
   }
 }
@@ -103,4 +105,12 @@
   margin: 30px auto 20px;
   z-index: 1;
   pointer-events: none;
+}
+
+.contact-container {
+  text-align: center;
+}
+
+.icons-container {
+  margin: 0px auto;
 }

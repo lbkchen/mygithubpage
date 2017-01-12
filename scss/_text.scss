@@ -42,10 +42,13 @@ a {
   }
 }
 
-.title-text {
-  font-size: 30px;
+#title-text {
+  font-size: 32px;
   font-weight: $regular;
-  color: $green;
+  &:hover {
+    color: $green;
+    text-decoration: none;
+  }
 }
 
 .project-text {
@@ -56,4 +59,9 @@ a {
   letter-spacing: 1px;
   z-index: 1;
   pointer-events: none;
+}
+
+.reverse {
+  unicode-bidi: bidi-override;
+  direction: rtl;
 }

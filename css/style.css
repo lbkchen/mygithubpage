@@ -24,10 +24,12 @@ a {
     color: #2890e6;
     text-decoration: underline; }
 
-.title-text {
-  font-size: 30px;
-  font-weight: 400;
-  color: #2bb181; }
+#title-text {
+  font-size: 32px;
+  font-weight: 400; }
+  #title-text:hover {
+    color: #2bb181;
+    text-decoration: none; }
 
 .project-text {
   position: relative;
@@ -37,6 +39,49 @@ a {
   letter-spacing: 1px;
   z-index: 1;
   pointer-events: none; }
+
+.reverse {
+  unicode-bidi: bidi-override;
+  direction: rtl; }
+
+.icon-btn, .icon-btn-left {
+  width: 40px;
+  height: 40px;
+  background-color: #373737;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  transition: 150ms ease-in-out; }
+  .icon-btn:hover, .icon-btn-left:hover {
+    background-color: #2890e6;
+    cursor: pointer; }
+
+.icon-btn-left {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px; }
+
+.icon-desc-container {
+  display: inline-block;
+  height: 40px;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 1px solid #373737;
+  border-radius: 8px;
+  color: #373737; }
+  .icon-desc-container > .icon-btn-left {
+    float: left;
+    transform: translate(-1px, -1px);
+    pointer-events: none; }
+  .icon-desc-container > .icon-desc {
+    float: right;
+    margin: 0px 10px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 38px;
+    font-weight: 700; }
+
+.clearfix {
+  clear: both; }
 
 .sidebar {
   position: fixed;
@@ -91,7 +136,7 @@ a {
   margin: 10px;
   padding: 0px 10px;
   text-align: center;
-  transition: 200ms ease; }
+  transition: 200ms ease-in-out; }
   .project-box.cvicu {
     background-color: rgba(186, 66, 54, 0.8); }
   .project-box.hbi {
@@ -100,7 +145,7 @@ a {
     background-color: rgba(57, 124, 213, 0.8); }
     .project-box.roots:hover > .project-icon {
       transform: rotate(360deg);
-      transition: 1000ms ease; }
+      transition: 700ms ease-in-out; }
   .project-box.maps {
     background-color: rgba(40, 40, 40, 0.8); }
   .project-box:hover {
@@ -116,7 +161,7 @@ a {
   opacity: 0;
   transition: 200ms; }
   .project-box-img:hover {
-    opacity: 0.2;
+    opacity: 0.3;
     cursor: pointer; }
 
 .project-icon {
@@ -127,5 +172,11 @@ a {
   margin: 30px auto 20px;
   z-index: 1;
   pointer-events: none; }
+
+.contact-container {
+  text-align: center; }
+
+.icons-container {
+  margin: 0px auto; }
 
 /*# sourceMappingURL=style.css.map */
