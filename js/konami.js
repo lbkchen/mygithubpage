@@ -31,11 +31,15 @@ function activateCheats() {
 
   // Animations
   document.getElementById("main").style.animation = "seizure 0.3s infinite";
-  var elements = document.querySelectorAll('p,a,h1,img')
+  var elements = document.querySelectorAll('p,a,h1,img,button');
   for (var i=0, max=elements.length; i < max; i++) {
-    elements[i].style.animation = "rotate 0.5s linear infinite"
+    elements[i].style.animation = "rotate 0.5s linear infinite";
   }
-
+  var boxes = document.getElementsByClassName("project-box");
+  for (var i=0, max=boxes.length; i < max; i++) {
+    boxes[i].style.animation = "pulse 0.5s ease-in-out infinite";
+    boxes[i].style.animationDelay = i * 80 + "ms";
+  }
   // Swag music
   var audio = new Audio('sounds/guile.mp3');
   audio.play();
