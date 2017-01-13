@@ -12,6 +12,13 @@
     background-color: $blue;
     cursor: pointer;
   }
+  &.heart {
+    &:active {
+      background-color: $red;
+      @include transform(scale(1.1, 1.1));
+      @include transform-origin(center);
+    }
+  }
 }
 
 .icon-btn-left {

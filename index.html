@@ -13,6 +13,7 @@
 <head>
   <script src="https://use.fontawesome.com/987071b499.js"></script>
   <script src="js/konami.js"></script>
+  <script src="js/heart.js"></script>
 </head>
 
 <body>
@@ -98,9 +99,14 @@
           <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
         </button>
 
-        <button class="icon-btn ani5">
+        <button class="icon-btn heart ani5" onclick="love()">
           <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
         </button>
+      </div>
+
+      <div class="score-container" id="score-box">
+        <span class="score-text">SCORE:</span>
+        <span class="score-text" id="score-value">0</span>
       </div>
 
     </div>

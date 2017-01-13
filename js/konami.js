@@ -40,6 +40,7 @@ function activateCheats() {
     boxes[i].style.animation = "pulse 0.5s ease-in-out infinite";
     boxes[i].style.animationDelay = i * 80 + "ms";
   }
+
   // Swag music
   var audio = new Audio('sounds/guile.mp3');
   audio.play();

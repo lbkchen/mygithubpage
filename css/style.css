@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
 body {
   color: #373737;
   font-family: "Lato", "Helvetica", sans-serif;
@@ -44,6 +45,10 @@ a {
   unicode-bidi: bidi-override;
   direction: rtl; }
 
+.score-text {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px; }
+
 .icon-btn, .icon-btn-left {
   width: 40px;
   height: 40px;
@@ -55,6 +60,18 @@ a {
   .icon-btn:hover, .icon-btn-left:hover {
     background-color: #2890e6;
     cursor: pointer; }
+  .icon-btn.heart:active, .heart.icon-btn-left:active {
+    background-color: #ba4236;
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    -webkit-transform-origin: center;
+    -moz-transform-origin: center;
+    -ms-transform-origin: center;
+    -o-transform-origin: center;
+    transform-origin: center; }
 
 .icon-btn-left {
   border-top-right-radius: 0px;
@@ -642,5 +659,11 @@ a {
 
 .icons-container {
   margin: 0px auto; }
+
+.score-container {
+  position: fixed;
+  right: 25px;
+  bottom: 5px;
+  color: transparent; }
 
 /*# sourceMappingURL=style.css.map */
