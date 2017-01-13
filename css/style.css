@@ -295,7 +295,7 @@ a {
     -o-transform: translateY(0px);
     transform: translateY(0px); } }
 .ani, .ani0, .ani1, .ani2, .ani3, .ani4, .ani5 {
-  animation: dropFadeIn 500ms; }
+  animation: dropFadeIn 500ms ease-out; }
 
 .ani0 {
   animation-delay: 0ms; }

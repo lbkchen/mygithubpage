@@ -59,7 +59,7 @@
 
 // Page load animation orders
 .ani {
-  animation: dropFadeIn 500ms;
+  animation: dropFadeIn 500ms ease-out;
 }
 
 .ani0 {
