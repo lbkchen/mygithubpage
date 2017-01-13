@@ -244,11 +244,11 @@ a {
     transform: translateY(-20px); }
   to {
     opacity: 1;
-    -webkit-transform: translatY(0px);
-    -moz-transform: translatY(0px);
-    -ms-transform: translatY(0px);
-    -o-transform: translatY(0px);
-    transform: translatY(0px); } }
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px); } }
 @-moz-keyframes dropFadeIn {
   from {
     opacity: 0;
@@ -259,11 +259,11 @@ a {
     transform: translateY(-20px); }
   to {
     opacity: 1;
-    -webkit-transform: translatY(0px);
-    -moz-transform: translatY(0px);
-    -ms-transform: translatY(0px);
-    -o-transform: translatY(0px);
-    transform: translatY(0px); } }
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px); } }
 @-o-keyframes dropFadeIn {
   from {
     opacity: 0;
@@ -274,11 +274,11 @@ a {
     transform: translateY(-20px); }
   to {
     opacity: 1;
-    -webkit-transform: translatY(0px);
-    -moz-transform: translatY(0px);
-    -ms-transform: translatY(0px);
-    -o-transform: translatY(0px);
-    transform: translatY(0px); } }
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px); } }
 @keyframes dropFadeIn {
   from {
     opacity: 0;
@@ -289,11 +289,11 @@ a {
     transform: translateY(-20px); }
   to {
     opacity: 1;
-    -webkit-transform: translatY(0px);
-    -moz-transform: translatY(0px);
-    -ms-transform: translatY(0px);
-    -o-transform: translatY(0px);
-    transform: translatY(0px); } }
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px); } }
 .ani, .ani0, .ani1, .ani2, .ani3, .ani4, .ani5 {
   animation: dropFadeIn 500ms; }
 

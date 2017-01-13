@@ -52,7 +52,7 @@
   }
   to {
     opacity: 1;
-    @include transform(translatY(0px));
+    @include transform(translateY(0px));
 
   }
 }
