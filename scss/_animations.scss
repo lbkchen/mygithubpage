@@ -1,5 +1,6 @@
-// FIXME: Add cross-browser compatibility
-@keyframes seizure {
+@import "_mixins";
+
+@include keyframes(seizure) {
   0% {
     background-color: #eb2e2e;
   }
@@ -35,20 +36,58 @@
   }
 }
 
-// FIXME: Add cross-browser compatibility
-@keyframes rotate {
+@include keyframes(rotate) {
   from {
-    -ms-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
+    @include transform(rotate(0deg));
   }
   to {
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
+    @include transform(rotate(360deg));
   }
+}
+
+@include keyframes(dropFadeIn) {
+  from {
+    opacity: 0;
+    @include transform(translateY(-20px));
+  }
+  to {
+    opacity: 1;
+    @include transform(translatY(0px));
+
+  }
+}
+
+// Page load animation orders
+.ani {
+  animation: dropFadeIn 500ms;
+}
+
+.ani0 {
+  @extend .ani;
+  animation-delay: 0ms;
+}
+
+.ani1 {
+  @extend .ani;
+  animation-delay: 100ms;
+}
+
+.ani2 {
+  @extend .ani;
+  animation-delay: 200ms;
+}
+
+.ani3 {
+  @extend .ani;
+  animation-delay: 300ms;
+}
+
+.ani4 {
+  @extend .ani;
+  animation-delay: 400ms;
+}
+
+.ani5 {
+  @extend .ani;
+  animation-delay: 500ms;
 }
