@@ -1,0 +1,54 @@
+// FIXME: Add cross-browser compatibility
+@keyframes seizure {
+  0% {
+    background-color: #eb2e2e;
+  }
+  10% {
+    background-color: #f6c42c;
+  }
+  20% {
+    background-color: #bfec53;
+  }
+  30% {
+    background-color: #56ec53;
+  }
+  40% {
+    background-color: #53ecbe;
+  }
+  50% {
+    background-color: #53b0ec;
+  }
+  60% {
+    background-color: #535dec;
+  }
+  70% {
+    background-color: #8453ec;
+  }
+  80% {
+    background-color: #d653ec;
+  }
+  90% {
+    background-color: #ec53c1;
+  }
+  100% {
+    background-color: #ec5373;
+  }
+}
+
+// FIXME: Add cross-browser compatibility
+@keyframes rotate {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

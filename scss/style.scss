@@ -3,6 +3,7 @@
 @import "_flex";
 @import "_buttons";
 @import "_misc";
+@import "_animations";
 
 .sidebar {
   position: fixed;
@@ -34,15 +35,28 @@
   position: fixed;
   top: 0px;
   bottom: 0px;
+  left: 0px;
+  right: 0px;
   float: right;
   width: 100%;
   background-color: $false-white;
   overflow-y: scroll;
 }
 
+// Just for the easter eggz
+#main {
+  // animation: seizure 1s infinite;
+  animation-timing-function: ease-in-out;
+}
+
 .content-container {
   width: 50%;
   margin: 50px auto;
+}
+
+// Just for the easter eggz
+#content {
+  background-size: 100%
 }
 
 .projects-container {
