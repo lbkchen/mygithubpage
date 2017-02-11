@@ -637,7 +637,7 @@ p {
     .project-box.roots:hover > .project-icon {
       transform: rotate(360deg);
       transition: 700ms ease-in-out; }
-  .project-box.maps {
+  .project-box.gogo {
     background-color: rgba(40, 40, 40, 0.8); }
   .project-box:hover {
     transform: scale(1.05, 1.05);
