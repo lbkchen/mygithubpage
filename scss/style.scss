@@ -74,6 +74,7 @@
   margin: 10px;
   padding: 0px 10px;
   text-align: center;
+  overflow: hidden;
   transition: 200ms ease-in-out;
   &.cvicu {
     background-color: $red-80;
@@ -139,3 +140,5 @@
   bottom: 5px;
   color: transparent;
 }
+
+// Project Page
