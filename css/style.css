@@ -621,9 +621,9 @@ p {
 
 .project-box {
   position: relative;
-  width: 300px;
+  width: 42%;
   height: 200px;
-  margin: 10px;
+  margin: 8px;
   padding: 0px 10px;
   text-align: center;
   overflow: hidden;
