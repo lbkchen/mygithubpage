@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import theme from "../styles/theme";
+
 export default () => (
   <div>
     <Head>
@@ -8,22 +10,21 @@ export default () => (
 
     {/* global styles */}
     <style jsx global>{`
+      @import url("https://fonts.googleapis.com/css?family=Overpass+Mono:400,700|Overpass:100,400&display=swap");
+
       * {
         margin: 0;
         box-sizing: border-box;
       }
       body {
-        font: 13px Menlo, Monaco, Lucida Console, Liberation Mono,
-          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
-          serif;
+        font-size: 14px;
+        font-family: ${theme.fonts.mono};
       }
       a {
         color: #22bad9;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
       }
       a:hover {
         color: #fff;
-        background: #22bad9;
         text-decoration: none;
       }
     `}</style>
