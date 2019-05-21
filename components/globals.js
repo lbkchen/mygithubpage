@@ -16,13 +16,17 @@ export default () => (
         margin: 0;
         box-sizing: border-box;
       }
+
       body {
         font-size: 14px;
         font-family: ${theme.fonts.mono};
+        background-color: ${theme.colors.offWhite};
       }
+
       a {
         color: #22bad9;
       }
+
       a:hover {
         color: #fff;
         text-decoration: none;

@@ -25,11 +25,12 @@ export default ({ children }) => (
           display: flex;
           flex-direction: column;
           align-items: center;
-          padding: 32px 64px;
+          padding: 72px 64px;
         }
 
         .logo-text {
           padding: 16px 48px;
+          margin-bottom: 48px;
           background-color: ${theme.colors.offBlack};
           font-family: ${theme.fonts.headers};
           font-size: 24px;
