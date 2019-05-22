@@ -24,12 +24,28 @@ export default () => (
       }
 
       a {
-        color: #22bad9;
       }
 
       a:hover {
-        color: #fff;
         text-decoration: none;
+      }
+
+      a.link-animate:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #000;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out 0s;
+      }
+
+      a.link-animate:hover:before {
+        visibility: visible;
+        transform: scaleX(1);
       }
     `}</style>
   </div>
