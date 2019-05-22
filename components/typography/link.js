@@ -32,7 +32,7 @@ export default class A extends React.PureComponent {
             left: 0;
             background-color: ${theme.colors.offBlack};
             transform-origin: bottom;
-            transition: all 0.2s cubic-bezier(0.77, 0, 0.175, 1) 0s;
+            transition: all 0.2s cubic-bezier(0.755, 0.05, 0.855, 0.06) 0s;
             opacity: 0.1;
           }
 
