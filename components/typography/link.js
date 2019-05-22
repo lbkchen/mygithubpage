@@ -32,12 +32,12 @@ export default class A extends React.PureComponent {
             left: 0;
             background-color: ${theme.colors.offBlack};
             transform-origin: bottom;
-            transition: all 0.2s ease-in-out 0s;
+            transition: all 0.2s cubic-bezier(0.77, 0, 0.175, 1) 0s;
             opacity: 0.1;
           }
 
           a:hover:after {
-            transform: scaleY(0.125);
+            transform: scaleY(0.125) translateY(4px);
             opacity: 1;
           }
         `}</style>
