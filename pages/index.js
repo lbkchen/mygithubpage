@@ -2,6 +2,7 @@ import Link from "next/link";
 import Head from "next/head";
 
 import Page from "../layouts/main";
+import Card from "../components/card";
 import P from "../components/typography/paragraph";
 
 export default () => (
@@ -18,7 +19,32 @@ export default () => (
         </P>
         <P>I’m currently in Tokyo, Japan until August 2019.</P>
       </div>
-      <div className="gallery" />
+      <div className="gallery">
+        <Card
+          leftText="NIGHTSCAPES AND STARS"
+          rightText="JUNE '16"
+          title="PHOTOGRAPHY"
+          description="An exploration of low-light photography in Shanghai, China."
+        />
+        <Card
+          leftText="NIGHTSCAPES AND STARS"
+          rightText="JUNE '16"
+          title="PHOTOGRAPHY"
+          description="An exploration of low-light photography in Shanghai, China."
+        />
+        <Card
+          leftText="NIGHTSCAPES AND STARS"
+          rightText="JUNE '16"
+          title="PHOTOGRAPHY"
+          description="An exploration of low-light photography in Shanghai, China."
+        />
+        <Card
+          leftText="NIGHTSCAPES AND STARS"
+          rightText="JUNE '16"
+          title="PHOTOGRAPHY"
+          description="An exploration of low-light photography in Shanghai, China."
+        />
+      </div>
     </div>
 
     <style jsx>{`
@@ -31,19 +57,14 @@ export default () => (
       .intro {
         text-align: center;
         max-width: 500px;
+        margin-bottom: 24px;
       }
 
-      h1 {
-        font-size: 14px;
-        font-weight: normal;
-      }
-      nav {
-        margin-top: 20px;
-      }
-      a {
-        display: inline-block;
-        margin: 0 15px;
-        text-decoration: none;
+      .gallery {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        max-width: 960px;
       }
     `}</style>
   </Page>
