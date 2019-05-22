@@ -1,3 +1,5 @@
+import classNames from "classnames";
+
 import P from "./typography/paragraph";
 
 export default class Card extends React.PureComponent {
@@ -31,14 +33,17 @@ export default class Card extends React.PureComponent {
             src="../static/images/montane-online.jpg"
             alt="image"
           />
-          {this.state.isHovering && (
-            <div className="image-overlay">
-              <P>
-                <b>{title.toUpperCase()}</b>
-              </P>
-              <P>{description}</P>
-            </div>
-          )}
+
+          <div
+            className={classNames("image-overlay", {
+              "image-overlay--visible": this.state.isHovering
+            })}
+          >
+            <P>
+              <b>{title.toUpperCase()}</b>
+            </P>
+            <P>{description}</P>
+          </div>
         </div>
 
         <div className="content-container">
@@ -51,13 +56,13 @@ export default class Card extends React.PureComponent {
             width: 300px;
             height: 360px;
             padding: 18px;
-            transition: 100ms;
+            transition: 120ms;
             transform-origin: center;
           }
 
           .card:hover {
             box-shadow: 4px 4px 32px 10px rgba(0, 0, 0, 0.08);
-            transform: rotate(1.6deg);
+            transform: rotate(1.6deg) scale(1.02, 1.02);
             cursor: pointer;
           }
 
@@ -88,6 +93,12 @@ export default class Card extends React.PureComponent {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            transition: 120ms;
+            opacity: 0;
+          }
+
+          .image-overlay--visible {
+            opacity: 1;
           }
 
           .content-container {
