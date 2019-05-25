@@ -29,6 +29,20 @@ export default () => (
           description="At Samsara, I created a motion-detection feature to prevent large-asset theft."
         />
         <Card
+          imgUrl="/static/images/thumbnails/maui.jpg"
+          leftText="MAUI"
+          rightText="APRIL '18"
+          title="PHOTOGRAPHY"
+          description="Beaches, mountains, stars, and an unforgettable sunrise atop Haleakalā."
+        />
+        <Card
+          imgUrl="/static/images/thumbnails/hong-kong.jpg"
+          leftText="HONG KONG, SINGAPORE"
+          rightText="JANUARY '18"
+          title="PHOTOGRAPHY"
+          description="Beautiful urban architecture and nightscapes."
+        />
+        <Card
           imgUrl="/static/images/thumbnails/roots-of-success.png"
           leftText="ROOTS OF SUCCESS"
           rightText="MAY '17"
