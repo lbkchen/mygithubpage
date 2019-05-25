@@ -95,6 +95,7 @@ export default class Card extends React.PureComponent {
             align-items: center;
             transition: 120ms;
             opacity: 0;
+            text-align: center;
           }
 
           .image-overlay--visible {

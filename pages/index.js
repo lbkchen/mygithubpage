@@ -22,11 +22,25 @@ export default () => (
       </div>
       <div className="gallery">
         <Card
+          imgUrl="/static/images/thumbnails/tokyo-icu.jpg"
+          leftText="JAPAN"
+          rightText="May '19"
+          title="PHOTOGRAPHY"
+          description="My favorite places and experiences during my 4 months abroad."
+        />
+        <Card
           imgUrl="/static/images/thumbnails/wake-on-motion.jpg"
           leftText="IOT MOTION DETECTION"
           rightText="MARCH '19"
           title="IOT FIRMWARE"
           description="At Samsara, I created a motion-detection feature to prevent large-asset theft."
+        />
+        <Card
+          imgUrl="/static/images/thumbnails/tractor-trailer.jpg"
+          leftText="IOT ASYNC WORKER"
+          rightText="AUGUST '18"
+          title="SOFTWARE ENGINEERING INTERNSHIP"
+          description="At Samsara, I wrote a Go worker to ingest sensor data and detect vehicle-to-trailer proximity."
         />
         <Card
           imgUrl="/static/images/thumbnails/maui.jpg"
