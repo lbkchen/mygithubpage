@@ -22,16 +22,25 @@ export default () => (
       </div>
       <div className="gallery">
         <Card
-          leftText="NIGHTSCAPES AND STARS"
-          rightText="JUNE '16"
-          title="PHOTOGRAPHY"
-          description="An exploration of low-light photography in Shanghai, China."
+          imgUrl="/static/images/thumbnails/wake-on-motion.jpg"
+          leftText="IOT MOTION DETECTION"
+          rightText="MARCH '19"
+          title="IOT FIRMWARE"
+          description="At Samsara, I created a motion-detection feature to prevent large-asset theft."
         />
         <Card
-          leftText="NIGHTSCAPES AND STARS"
-          rightText="JUNE '16"
-          title="PHOTOGRAPHY"
-          description="An exploration of low-light photography in Shanghai, China."
+          imgUrl="/static/images/thumbnails/roots-of-success.png"
+          leftText="ROOTS OF SUCCESS"
+          rightText="MAY '17"
+          title="WEB APPLICATION"
+          description="Led a team to create an online course-builder to digitalize RoS's curriculum."
+        />
+        <Card
+          imgUrl="/static/images/thumbnails/indiegogo.png"
+          leftText="INDIEGOGO"
+          rightText="MAY '16"
+          title="PRODUCT DESIGN"
+          description="Researched and created designs to improve the entrepreneur experience on the platform."
         />
         <Card
           leftText="NIGHTSCAPES AND STARS"

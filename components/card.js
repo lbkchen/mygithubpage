@@ -30,7 +30,7 @@ export default class Card extends React.PureComponent {
         <div className="image-container">
           <img
             className="image"
-            src="../static/images/montane-online.jpg"
+            src={imgUrl || "/static/images/montane-online.jpg"}
             alt="image"
           />
 
