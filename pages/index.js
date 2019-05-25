@@ -76,12 +76,6 @@ export default () => (
           title="PHOTOGRAPHY"
           description="An exploration of low-light photography in Shanghai, China."
         />
-        <Card
-          leftText="NIGHTSCAPES AND STARS"
-          rightText="JUNE '16"
-          title="PHOTOGRAPHY"
-          description="An exploration of low-light photography in Shanghai, China."
-        />
       </div>
     </div>
 
