@@ -32,7 +32,7 @@ export default () => (
           imgUrl="/static/images/thumbnails/wake-on-motion.jpg"
           leftText="IOT MOTION DETECTION"
           rightText="MARCH '19"
-          title="IOT FIRMWARE"
+          title="FIRMWARE ENGINEERING INTERNSHIP"
           description="At Samsara, I created a motion-detection feature to prevent large-asset theft."
         />
         <Card
