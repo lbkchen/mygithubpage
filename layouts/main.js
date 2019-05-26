@@ -25,7 +25,7 @@ export default ({ children }) => (
           display: flex;
           flex-direction: column;
           align-items: center;
-          padding: 72px 64px;
+          padding: 64px 64px;
         }
 
         .logo-text {

@@ -9,7 +9,7 @@ export default class P extends React.PureComponent {
           p {
             font-size: 14px;
             line-height: 24px;
-            margin-bottom: 20px;
+            margin-bottom: 24px;
           }
         `}</style>
       </p>

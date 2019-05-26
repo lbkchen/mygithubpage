@@ -1,6 +1,7 @@
 import classNames from "classnames";
 
 import P from "./typography/paragraph";
+import theme from "../styles/theme";
 
 export default class Card extends React.PureComponent {
   constructor(props) {
@@ -56,6 +57,8 @@ export default class Card extends React.PureComponent {
             width: 300px;
             height: 360px;
             padding: 18px;
+            margin: 8px;
+            background-color: ${theme.colors.offWhite};
             transition: 120ms;
             transform-origin: center;
           }
