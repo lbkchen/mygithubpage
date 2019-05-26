@@ -5,6 +5,7 @@ import Page from "../layouts/main";
 import Card from "../components/card";
 import P from "../components/typography/paragraph";
 import A from "../components/typography/link";
+import theme from "../styles/theme";
 
 export default () => (
   <Page>
@@ -21,13 +22,17 @@ export default () => (
         <P>I’m currently in Tokyo, Japan until August 2019.</P>
       </div>
       <div className="gallery">
-        <Card
-          imgUrl="/static/images/thumbnails/tokyo-icu.jpg"
-          leftText="JAPAN"
-          rightText="May '19"
-          title="PHOTOGRAPHY"
-          description="My favorite places and experiences during my 4 months abroad."
-        />
+        <Link prefetch href="/projects/japan">
+          <a>
+            <Card
+              imgUrl="/static/images/thumbnails/tokyo-icu.jpg"
+              leftText="JAPAN"
+              rightText="May '19"
+              title="PHOTOGRAPHY"
+              description="My favorite places and experiences during my 4 months abroad."
+            />
+          </a>
+        </Link>
         <Card
           imgUrl="/static/images/thumbnails/wake-on-motion.jpg"
           leftText="IOT MOTION DETECTION"
@@ -80,6 +85,11 @@ export default () => (
     </div>
 
     <style jsx>{`
+      a {
+        color: ${theme.colors.offBlack};
+        text-decoration: none;
+      }
+
       .home {
         display: flex;
         flex-direction: column;

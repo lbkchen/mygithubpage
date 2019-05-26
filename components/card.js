@@ -1,4 +1,5 @@
 import classNames from "classnames";
+import React from "react";
 
 import P from "./typography/paragraph";
 import theme from "../styles/theme";
