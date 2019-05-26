@@ -16,7 +16,8 @@ export default () => (
         <P>
           I am a <b>software engineer</b> from San Francisco working at Samsara.
           I’m also interested in UI/UX <b>design</b> and landscape/nightscape{" "}
-          <b>photography</b>. Please see my <A>resume</A>, and contact me{" "}
+          <b>photography</b>. Please see my <A>resume</A> and{" "}
+          <A href="https://github.com/lbkchen">GitHub</A>, and contact me{" "}
           <A>here</A> for any inquiries!
         </P>
         <P>I’m currently in Tokyo, Japan until August 2019.</P>

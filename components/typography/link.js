@@ -17,6 +17,8 @@ export default class A extends React.PureComponent {
           a {
             position: relative;
             font-weight: bold;
+            color: ${theme.colors.offBlack};
+            text-decoration: none;
           }
 
           a:hover {
