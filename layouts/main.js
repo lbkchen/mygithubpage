@@ -37,10 +37,12 @@ export default ({ children }) => (
           color: ${theme.colors.offWhite};
           text-decoration: none;
           letter-spacing: 1.8px;
+          transition: 80ms;
         }
 
         .logo-text:hover {
           color: ${theme.colors.offWhite};
+          opacity: 0.9;
         }
 
         .logo-ken {

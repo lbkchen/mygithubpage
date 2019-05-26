@@ -58,7 +58,6 @@ export default class Card extends React.PureComponent {
             height: 360px;
             padding: 18px;
             margin: 8px;
-            background-color: ${theme.colors.sepia};
             transition: 120ms;
             transform-origin: center;
           }
