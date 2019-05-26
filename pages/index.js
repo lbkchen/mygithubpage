@@ -33,13 +33,22 @@ export default () => (
             />
           </a>
         </Link>
-        <Card
-          imgUrl="/static/images/thumbnails/wake-on-motion.jpg"
-          leftText="IOT MOTION DETECTION"
-          rightText="MARCH '19"
-          title="FIRMWARE ENGINEERING INTERNSHIP"
-          description="At Samsara, I created a motion-detection feature to prevent large-asset theft."
-        />
+
+        <Link
+          prefetch
+          href="https://www.samsara.com/blog/introducing-wake-on-motion-for-unpowered-assets"
+        >
+          <a target="_blank">
+            <Card
+              imgUrl="/static/images/thumbnails/wake-on-motion.jpg"
+              leftText="IOT MOTION DETECTION"
+              rightText="MARCH '19"
+              title="FIRMWARE ENGINEERING INTERNSHIP"
+              description="At Samsara, I created a motion-detection feature to prevent large-asset theft."
+            />
+          </a>
+        </Link>
+
         <Card
           imgUrl="/static/images/thumbnails/tractor-trailer.jpg"
           leftText="IOT ASYNC WORKER"
@@ -47,6 +56,7 @@ export default () => (
           title="SOFTWARE ENGINEERING INTERNSHIP"
           description="At Samsara, I wrote a Go worker to ingest sensor data and detect vehicle-to-trailer proximity."
         />
+
         <Card
           imgUrl="/static/images/thumbnails/maui.jpg"
           leftText="MAUI"
@@ -54,6 +64,7 @@ export default () => (
           title="PHOTOGRAPHY"
           description="Beaches, mountains, stars, and an unforgettable sunrise atop Haleakalā."
         />
+
         <Card
           imgUrl="/static/images/thumbnails/hong-kong.jpg"
           leftText="HONG KONG, SINGAPORE"
@@ -61,20 +72,37 @@ export default () => (
           title="PHOTOGRAPHY"
           description="Beautiful urban architecture and nightscapes."
         />
-        <Card
-          imgUrl="/static/images/thumbnails/roots-of-success.png"
-          leftText="ROOTS OF SUCCESS"
-          rightText="MAY '17"
-          title="WEB APPLICATION"
-          description="Led a team to create an online course-builder to digitalize RoS's curriculum."
-        />
-        <Card
-          imgUrl="/static/images/thumbnails/indiegogo.png"
-          leftText="INDIEGOGO"
-          rightText="MAY '16"
-          title="PRODUCT DESIGN"
-          description="Researched and created designs to improve the entrepreneur experience on the platform."
-        />
+
+        <Link
+          prefetch
+          href="https://medium.com/blueprint/roots-of-success-1955f3a769e1"
+        >
+          <a target="_blank">
+            <Card
+              imgUrl="/static/images/thumbnails/roots-of-success.png"
+              leftText="ROOTS OF SUCCESS"
+              rightText="MAY '17"
+              title="WEB APPLICATION"
+              description="Led a team to create an online course-builder to digitalize RoS's curriculum."
+            />
+          </a>
+        </Link>
+
+        <Link
+          prefetch
+          href="https://www.behance.net/gallery/37619179/Indiegogo-Entrepreneur-Profile"
+        >
+          <a target="_blank">
+            <Card
+              imgUrl="/static/images/thumbnails/indiegogo.png"
+              leftText="INDIEGOGO"
+              rightText="MAY '16"
+              title="PRODUCT DESIGN"
+              description="Researched and created designs to improve the entrepreneur experience on the platform."
+            />
+          </a>
+        </Link>
+
         <Card
           leftText="NIGHTSCAPES AND STARS"
           rightText="JUNE '16"
