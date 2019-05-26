@@ -27,17 +27,18 @@ export default class A extends React.PureComponent {
             content: "";
             position: absolute;
             width: 100%;
-            height: 8px;
+            height: 10px;
             bottom: 0;
             left: 0;
-            background-color: ${theme.colors.offBlack};
+            background-color: ${theme.colors.blue};
             transform-origin: bottom;
+            transform: translateY(2px);
             transition: all 0.16s cubic-bezier(0.755, 0.05, 0.855, 0.06) 0s;
-            opacity: 0.1;
+            opacity: 0.16;
           }
 
           a:hover:after {
-            transform: scaleY(0.125) translateY(4px);
+            transform: scaleY(0.1) translateY(24px);
             opacity: 1;
           }
         `}</style>

@@ -4,12 +4,13 @@ const theme = {
     headers: "Overpass, 'Helvetica Neue', Helvetica, Arial, sans-serif"
   },
   colors: {
+    white: "#FFFFFF",
     offBlack: "#222224",
     offWhite: "#F9F9F9",
-    blue: "#4A86DF",
-    blue30: "rgba(74,134,223,0.3)",
-    warning: "#fff3cd",
-    success: "#d4edda"
+    sepia: "#FFFDF6",
+    green: "#49C081",
+    blue: "#2E249B",
+    red: "#CD082F"
   }
 };
 

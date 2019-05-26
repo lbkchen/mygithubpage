@@ -58,12 +58,13 @@ export default class Card extends React.PureComponent {
             height: 360px;
             padding: 18px;
             margin: 8px;
-            background-color: ${theme.colors.offWhite};
+            background-color: ${theme.colors.sepia};
             transition: 120ms;
             transform-origin: center;
           }
 
           .card:hover {
+            background-color: ${theme.colors.white};
             box-shadow: 4px 4px 32px 10px rgba(0, 0, 0, 0.08);
             transform: rotate(1.6deg) scale(1.02, 1.02);
             cursor: pointer;
