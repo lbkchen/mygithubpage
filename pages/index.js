@@ -138,5 +138,17 @@ export default () => (
         max-width: 960px;
       }
     `}</style>
+
+    {/* Janky descendants used here as a workaround */}
+    <style jsx global>{`
+      .page-transition-exit .card {
+        transform: scale(1, 1);
+      }
+
+      .page-transition-exit-active .card {
+        transform: scale(1.1, 1.1);
+        transition: 300ms;
+      }
+    `}</style>
   </Page>
 );

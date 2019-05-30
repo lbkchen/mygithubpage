@@ -60,7 +60,6 @@ export default class Card extends React.PureComponent {
             padding: 18px;
             margin: 8px;
             transition: 120ms;
-            transform-origin: center;
             transform-origin: center 8px;
           }
 
