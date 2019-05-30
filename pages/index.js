@@ -134,7 +134,7 @@ export default () => (
       .gallery {
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
         max-width: 960px;
       }
     `}</style>
