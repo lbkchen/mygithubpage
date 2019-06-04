@@ -23,7 +23,7 @@ export default () => (
         <P>I’m currently in Tokyo, Japan until August 2019.</P>
       </div>
       <div className="gallery">
-        <Link prefetch href="/projects/japan">
+        <Link prefetch scroll={false} href="/projects/japan">
           <a>
             <Card
               imgUrl="/static/images/thumbnails/tokyo-icu.jpg"
