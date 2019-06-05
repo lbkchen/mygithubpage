@@ -50,13 +50,17 @@ export default () => (
           </a>
         </Link>
 
-        <Card
-          imgUrl="/static/images/thumbnails/tractor-trailer.jpg"
-          leftText="IOT ASYNC WORKER"
-          rightText="AUGUST '18"
-          title="SOFTWARE ENGINEERING INTERNSHIP"
-          description="At Samsara, I wrote a Go worker to ingest sensor data and detect vehicle-to-trailer proximity."
-        />
+        <Link prefetch scroll={false} href="/blog/samsara-tractor-trailer">
+          <a>
+            <Card
+              imgUrl="/static/images/thumbnails/tractor-trailer.jpg"
+              leftText="IOT ASYNC WORKER"
+              rightText="AUGUST '18"
+              title="SOFTWARE ENGINEERING INTERNSHIP"
+              description="At Samsara, I wrote a Go worker to ingest sensor data and detect vehicle-to-trailer proximity."
+            />
+          </a>
+        </Link>
 
         <Card
           imgUrl="/static/images/thumbnails/maui.jpg"
