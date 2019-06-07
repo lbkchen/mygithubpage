@@ -31,10 +31,12 @@ class H extends React.PureComponent {
           }
           span {
             position: absolute;
-            margin-left: -15px;
-            width: 15px;
+            margin-left: -24px;
+            width: 16px;
           }
           a {
+            color: ${theme.colors.offBlack};
+            text-decoration: none;
             visibility: hidden;
           }
           div:hover a,

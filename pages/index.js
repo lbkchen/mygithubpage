@@ -26,9 +26,9 @@ export default () => (
         <Link prefetch scroll={false} href="/projects/japan">
           <a>
             <Card
-              imgUrl="/static/images/thumbnails/tokyo-icu.jpg"
+              imgUrl="/static/images/thumbnails/arashiyama-bamboo.jpg"
               leftText="JAPAN"
-              rightText="May '19"
+              rightText="MAY '19"
               title="PHOTOGRAPHY"
               description="My favorite places and experiences during my 4 months abroad."
             />
@@ -107,13 +107,6 @@ export default () => (
             />
           </a>
         </Link>
-
-        <Card
-          leftText="NIGHTSCAPES AND STARS"
-          rightText="JUNE '16"
-          title="PHOTOGRAPHY"
-          description="An exploration of low-light photography in Shanghai, China."
-        />
       </div>
     </div>
 
