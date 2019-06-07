@@ -1,0 +1,32 @@
+{
+  "name": "kenchen-io",
+  "version": "2.0.0",
+  "description": "Personal portfolio project",
+  "main": "index.js",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "next": "^8.1.0",
+    "next-page-transitions": "^1.0.0-beta.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-images": "^0.5.19",
+    "react-photo-gallery": "^7.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbkchen/lbkchen.github.io.git"
+  },
+  "keywords": [],
+  "author": "Ken Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbkchen/lbkchen.github.io/issues"
+  },
+  "homepage": "https://github.com/lbkchen/lbkchen.github.io#readme"
+}

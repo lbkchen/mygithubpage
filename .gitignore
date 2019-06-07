@@ -1,5 +1,2 @@
-# Directories
-design
-
-# Meta
-.sass-cache
+node_modules
+.next
