@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import Page from "../../layouts/main";
 import Gallery from "../../components/gallery";
 
@@ -36,6 +38,10 @@ const photos = [
 
 export default () => (
   <Page>
+    <Head>
+      <title>Maui - Ken Chen</title>
+    </Head>
+
     <div className="gallery">
       <h2>Maui</h2>
       <Gallery photos={photos} />
