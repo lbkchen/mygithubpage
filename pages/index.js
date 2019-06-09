@@ -116,7 +116,9 @@ export default () => (
 
       <div className="footer">
         <P>
-          <b>Portfolio - Ken Chen</b> <br /> 6.9.2019
+          <b>Portfolio - Ken Chen</b>
+          <br />
+          6.9.2019
         </P>
       </div>
     </div>
