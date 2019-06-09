@@ -16,9 +16,10 @@ export default () => (
     <div className="home">
       <div className="intro">
         <P>
-          I am a <b>software engineer</b> from San Francisco working at Samsara.
-          I’m also interested in UI/UX <b>design</b> and landscape/nightscape{" "}
-          <b>photography</b>. Please see my{" "}
+          I am a <b>software engineer</b> from San Francisco working at{" "}
+          <A href="https://www.samsara.com/">Samsara</A>. I’m also interested in
+          UI/UX <b>design</b> and landscape/nightscape <b>photography</b>.
+          Please see my{" "}
           <A href="/static/documents/ken-chen-resume.pdf">resume</A> and{" "}
           <A href="https://github.com/lbkchen">GitHub</A>, and contact me{" "}
           <A newTab={false} href="mailto:kenchen@berkeley.edu">
