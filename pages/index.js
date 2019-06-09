@@ -113,6 +113,12 @@ export default () => (
           </a>
         </Link>
       </div>
+
+      <div className="footer">
+        <P>
+          <b>Portfolio - Ken Chen</b> <br /> 6.9.2019
+        </P>
+      </div>
     </div>
 
     <style jsx>{`
@@ -138,6 +144,11 @@ export default () => (
         flex-flow: row wrap;
         justify-content: space-evenly;
         max-width: 960px;
+      }
+
+      .footer {
+        margin-top: 48px;
+        text-align: center;
       }
     `}</style>
 
