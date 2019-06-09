@@ -9,7 +9,9 @@ import theme from "../styles/theme";
 
 export default () => (
   <Page>
-    <Head>Ken Chen</Head>
+    <Head>
+      <title>Ken Chen</title>
+    </Head>
 
     <div className="home">
       <div className="intro">
