@@ -49,7 +49,7 @@ export default () => (
 
     <style jsx>{`
       .gallery {
-        width: 600px;
+        width: 720px;
       }
     `}</style>
   </Page>
