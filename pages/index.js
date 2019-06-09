@@ -21,7 +21,10 @@ export default () => (
           <b>photography</b>. Please see my{" "}
           <A href="/static/documents/ken-chen-resume.pdf">resume</A> and{" "}
           <A href="https://github.com/lbkchen">GitHub</A>, and contact me{" "}
-          <A>here</A> for any inquiries!
+          <A newTab={false} href="mailto:kenchen@berkeley.edu">
+            here
+          </A>{" "}
+          for any inquiries!
         </P>
         <P>I’m currently in Tokyo, Japan until August 2019.</P>
       </div>
