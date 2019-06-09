@@ -37,10 +37,7 @@ export default () => (
           </a>
         </Link>
 
-        <Link
-          prefetch
-          href="https://www.samsara.com/blog/introducing-wake-on-motion-for-unpowered-assets"
-        >
+        <Link href="https://www.samsara.com/blog/introducing-wake-on-motion-for-unpowered-assets">
           <a target="_blank">
             <Card
               imgUrl="/static/images/thumbnails/wake-on-motion.jpg"
@@ -76,18 +73,19 @@ export default () => (
           </a>
         </Link>
 
-        <Card
-          imgUrl="/static/images/thumbnails/hong-kong.jpg"
-          leftText="HONG KONG, SINGAPORE"
-          rightText="JANUARY '18"
-          title="PHOTOGRAPHY"
-          description="Beautiful urban architecture and nightscapes."
-        />
+        <Link prefetch scroll={false} href="/projects/hong-kong">
+          <a>
+            <Card
+              imgUrl="/static/images/thumbnails/hong-kong.jpg"
+              leftText="HONG KONG"
+              rightText="JANUARY '18"
+              title="PHOTOGRAPHY"
+              description="Beautiful urban architecture and nightscapes."
+            />
+          </a>
+        </Link>
 
-        <Link
-          prefetch
-          href="https://medium.com/blueprint/roots-of-success-1955f3a769e1"
-        >
+        <Link href="https://medium.com/blueprint/roots-of-success-1955f3a769e1">
           <a target="_blank">
             <Card
               imgUrl="/static/images/thumbnails/roots-of-success.png"
@@ -99,10 +97,7 @@ export default () => (
           </a>
         </Link>
 
-        <Link
-          prefetch
-          href="https://www.behance.net/gallery/37619179/Indiegogo-Entrepreneur-Profile"
-        >
+        <Link href="https://www.behance.net/gallery/37619179/Indiegogo-Entrepreneur-Profile">
           <a target="_blank">
             <Card
               imgUrl="/static/images/thumbnails/indiegogo.png"
