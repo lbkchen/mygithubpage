@@ -9,16 +9,22 @@ import theme from "../styles/theme";
 
 export default () => (
   <Page>
-    <Head>Ken Chen</Head>
+    <Head>
+      <title>Ken Chen</title>
+    </Head>
 
     <div className="home">
       <div className="intro">
         <P>
           I am a <b>software engineer</b> from San Francisco working at Samsara.
           I’m also interested in UI/UX <b>design</b> and landscape/nightscape{" "}
-          <b>photography</b>. Please see my <A>resume</A> and{" "}
+          <b>photography</b>. Please see my{" "}
+          <A href="/static/documents/ken-chen-resume.pdf">resume</A> and{" "}
           <A href="https://github.com/lbkchen">GitHub</A>, and contact me{" "}
-          <A>here</A> for any inquiries!
+          <A newTab={false} href="mailto:kenchen@berkeley.edu">
+            here
+          </A>{" "}
+          for any inquiries!
         </P>
         <P>I’m currently in Tokyo, Japan until August 2019.</P>
       </div>
@@ -35,10 +41,7 @@ export default () => (
           </a>
         </Link>
 
-        <Link
-          prefetch
-          href="https://www.samsara.com/blog/introducing-wake-on-motion-for-unpowered-assets"
-        >
+        <Link href="https://www.samsara.com/blog/introducing-wake-on-motion-for-unpowered-assets">
           <a target="_blank">
             <Card
               imgUrl="/static/images/thumbnails/wake-on-motion.jpg"
@@ -62,26 +65,31 @@ export default () => (
           </a>
         </Link>
 
-        <Card
-          imgUrl="/static/images/thumbnails/maui.jpg"
-          leftText="MAUI"
-          rightText="APRIL '18"
-          title="PHOTOGRAPHY"
-          description="Beaches, mountains, stars, and an unforgettable sunrise atop Haleakalā."
-        />
+        <Link prefetch scroll={false} href="/projects/maui">
+          <a>
+            <Card
+              imgUrl="/static/images/thumbnails/maui.jpg"
+              leftText="MAUI"
+              rightText="APRIL '18"
+              title="PHOTOGRAPHY"
+              description="Beaches, mountains, stars, and an unforgettable sunrise atop Haleakalā."
+            />
+          </a>
+        </Link>
 
-        <Card
-          imgUrl="/static/images/thumbnails/hong-kong.jpg"
-          leftText="HONG KONG, SINGAPORE"
-          rightText="JANUARY '18"
-          title="PHOTOGRAPHY"
-          description="Beautiful urban architecture and nightscapes."
-        />
+        <Link prefetch scroll={false} href="/projects/hong-kong">
+          <a>
+            <Card
+              imgUrl="/static/images/thumbnails/hong-kong.jpg"
+              leftText="HONG KONG"
+              rightText="JANUARY '18"
+              title="PHOTOGRAPHY"
+              description="Beautiful urban architecture and nightscapes."
+            />
+          </a>
+        </Link>
 
-        <Link
-          prefetch
-          href="https://medium.com/blueprint/roots-of-success-1955f3a769e1"
-        >
+        <Link href="https://medium.com/blueprint/roots-of-success-1955f3a769e1">
           <a target="_blank">
             <Card
               imgUrl="/static/images/thumbnails/roots-of-success.png"
@@ -93,10 +101,7 @@ export default () => (
           </a>
         </Link>
 
-        <Link
-          prefetch
-          href="https://www.behance.net/gallery/37619179/Indiegogo-Entrepreneur-Profile"
-        >
+        <Link href="https://www.behance.net/gallery/37619179/Indiegogo-Entrepreneur-Profile">
           <a target="_blank">
             <Card
               imgUrl="/static/images/thumbnails/indiegogo.png"
@@ -107,6 +112,14 @@ export default () => (
             />
           </a>
         </Link>
+      </div>
+
+      <div className="footer">
+        <P>
+          <b>Portfolio - Ken Chen</b>
+          <br />
+          6.9.2019
+        </P>
       </div>
     </div>
 
@@ -133,6 +146,11 @@ export default () => (
         flex-flow: row wrap;
         justify-content: space-evenly;
         max-width: 960px;
+      }
+
+      .footer {
+        margin-top: 48px;
+        text-align: center;
       }
     `}</style>
 

@@ -1,9 +1,15 @@
+import Head from "next/head";
+
 import Page from "../../layouts/main";
 import { H2, H3 } from "../../components/typography/heading";
 import P from "../../components/typography/paragraph";
 
 export default () => (
   <Page>
+    <Head>
+      <title>Samsara Tractor Trailer - Ken Chen</title>
+    </Head>
+
     <div className="text-body">
       <H2 id="samsara-title">Samsara, Tractor-Trailer Async Worker</H2>
       <P>

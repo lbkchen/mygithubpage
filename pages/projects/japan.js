@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import Page from "../../layouts/main";
 import Gallery from "../../components/gallery";
 
@@ -46,6 +48,10 @@ const photos = [
 
 export default () => (
   <Page>
+    <Head>
+      <title>Japan - Ken Chen</title>
+    </Head>
+
     <div className="gallery">
       <h2>Japan</h2>
       <Gallery photos={photos} />
@@ -53,7 +59,7 @@ export default () => (
 
     <style jsx>{`
       .gallery {
-        width: 600px;
+        width: 720px;
       }
     `}</style>
   </Page>
