@@ -62,13 +62,17 @@ export default () => (
           </a>
         </Link>
 
-        <Card
-          imgUrl="/static/images/thumbnails/maui.jpg"
-          leftText="MAUI"
-          rightText="APRIL '18"
-          title="PHOTOGRAPHY"
-          description="Beaches, mountains, stars, and an unforgettable sunrise atop Haleakalā."
-        />
+        <Link prefetch scroll={false} href="/projects/maui">
+          <a>
+            <Card
+              imgUrl="/static/images/thumbnails/maui.jpg"
+              leftText="MAUI"
+              rightText="APRIL '18"
+              title="PHOTOGRAPHY"
+              description="Beaches, mountains, stars, and an unforgettable sunrise atop Haleakalā."
+            />
+          </a>
+        </Link>
 
         <Card
           imgUrl="/static/images/thumbnails/hong-kong.jpg"
