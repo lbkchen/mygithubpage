@@ -10,8 +10,6 @@ export default () => (
 
     {/* global styles */}
     <style jsx global>{`
-      @import url("https://fonts.googleapis.com/css?family=Overpass+Mono:400,700|Overpass:100,400&display=swap");
-
       * {
         margin: 0;
         box-sizing: border-box;
