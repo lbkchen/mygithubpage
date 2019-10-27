@@ -26,6 +26,13 @@ export default ({ children }) => (
           flex-direction: column;
           align-items: center;
           padding: 64px 64px;
+
+          background-color: ${theme.colors.sepia};
+          background-image: radial-gradient(
+            ${theme.colors.sepiaDarker} 5%,
+            transparent 0
+          );
+          background-size: 24px 24px;
         }
 
         .logo-text {

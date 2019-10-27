@@ -18,12 +18,6 @@ export default () => (
       body {
         font-size: 14px;
         font-family: ${theme.fonts.mono};
-        background-color: ${theme.colors.sepia};
-        background-image: radial-gradient(
-          ${theme.colors.blue} 2.1%,
-          transparent 0
-        );
-        background-size: 24px 24px;
       }
 
       a {
